@@ -166,6 +166,21 @@
   .vision-divider span{display:inline-block;width:46px;height:4px;border-radius:2px;background:var(--violet);box-shadow:0 0 12px var(--violet)}
   .vision-divider span:nth-child(2){background:#fff;width:18px;box-shadow:0 0 10px #fff}
   .vision-divider span:nth-child(3){background:var(--pink);box-shadow:0 0 12px var(--pink)}
+  .mapping-intro{font-size:15.5px;line-height:1.6;color:var(--text-soft);max-width:1000px;margin-bottom:20px}
+  .mapping-intro strong{color:var(--text);font-weight:600}
+  .mapping-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .mapping-card{display:flex;flex-direction:column;gap:8px;padding:14px;border:1px solid var(--border-strong);border-radius:14px;background:linear-gradient(160deg,var(--surface),var(--bg-2));text-decoration:none;transition:transform .3s var(--ease),box-shadow .3s var(--ease),border-color .3s var(--ease)}
+  .mapping-card:hover{transform:translateY(-4px);box-shadow:var(--glow-p);border-color:var(--pink)}
+  .mapping-thumb{display:flex;align-items:center;justify-content:center;border-radius:10px;border:1px dashed var(--border-strong);aspect-ratio:16/9;position:relative;overflow:hidden;
+    background:radial-gradient(ellipse at 50% 50%,rgba(236,72,153,.10),transparent 65%),var(--bg)}
+  .mapping-thumb::before{content:'';position:absolute;inset:0;background:url('_ressources/visuels/logo-bahama-west-mamas.png') center/58% no-repeat;opacity:.13}
+  .mapping-play{position:relative;z-index:1;color:var(--pink-bright);display:flex;filter:drop-shadow(0 0 12px rgba(236,72,153,.5));transition:transform .3s var(--ease)}
+  .mapping-card:hover .mapping-play{transform:scale(1.12)}
+  .mapping-num{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--pink-bright);margin-top:2px}
+  .mapping-desc{font-size:13.5px;line-height:1.5;color:var(--text-soft)}
+  .mapping-link{margin-top:auto;padding-top:10px;border-top:1px solid var(--border);font-size:12px;font-weight:600;color:var(--violet-bright)}
+  .mapping-card:hover .mapping-link{color:var(--pink-bright)}
+  .mapping-note{margin-top:16px;font-family:'Playfair Display',serif;font-style:italic;font-size:13px;color:var(--text-dim)}
   .compta-wrap{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:10px 40px}
   .compta-eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--text-dim)}
   .compta-logo{width:230px;height:auto;mix-blend-mode:screen;filter:drop-shadow(0 0 26px rgba(200,162,74,.35))}
@@ -691,6 +706,7 @@
       <div class="toc-item"><span class="toc-num">16</span><span class="toc-label">Futurs projets de développement</span></div>
       <div class="toc-item"><span class="toc-num">17</span><span class="toc-label">Annexes · documents à signer</span></div>
       <div class="toc-item"><span class="toc-num">18</span><span class="toc-label">Conclusion & contact</span></div>
+      <div class="toc-item"><span class="toc-num">19</span><span class="toc-label">Proposition de mapping</span></div>
     </div></div>
   </section>
 
@@ -812,7 +828,7 @@
     <div class="slide-content"><div class="bio bio-dense">
       <div>
         <div class="bio-meta">
-          <div class="bio-meta-item"><span class="bio-meta-label">Nom</span><span class="bio-meta-value">Imani</span></div>
+          <div class="bio-meta-item"><span class="bio-meta-label">Nom</span><span class="bio-meta-value">Imani WILLIAMS</span></div>
           <div class="bio-meta-item"><span class="bio-meta-label">Âge</span><span class="bio-meta-value">21 ans</span></div>
           <div class="bio-meta-item"><span class="bio-meta-label">Poste actuel</span><span class="bio-meta-value">Life Invader · Assistante de pôle</span></div>
         </div>
@@ -827,7 +843,7 @@
         </div>
       </div>
       <div class="bio-aside">
-        <div class="bio-portrait" data-label="Imani · Co-Patronne"><img src="_ressources/visuels/imani.png" alt="Imani" onerror="this.remove()"></div>
+        <div class="bio-portrait" data-label="Imani WILLIAMS · Co-Patronne"><img src="_ressources/visuels/imani.png" alt="Imani WILLIAMS" onerror="this.remove()"></div>
         <div class="bio-qualities">
           <h4>Qualités clés</h4>
           <div class="qualities-tags">
@@ -859,8 +875,8 @@
             <strong>Hybie FAITH</strong><span>Patronne · Gérante</span>
           </div>
           <div class="org-node lead">
-            <div class="org-node-bubble bubble-placeholder"><span>IM</span></div>
-            <strong>Imani</strong><span>Co-Patronne</span>
+            <div class="org-node-bubble bubble-placeholder"><span>IW</span></div>
+            <strong>Imani WILLIAMS</strong><span>Co-Patronne</span>
           </div>
         </div>
       </div>
@@ -1214,6 +1230,39 @@
     </div>
   </section>
 
+  <!-- 22 · PROPOSITION DE MAPPING -->
+  <section class="slide">
+    <svg class="waves br" viewBox="0 0 600 600"><g stroke="url(#waveGrad)"><ellipse cx="300" cy="300" rx="60" ry="180" transform="rotate(-35 300 300)"/><ellipse cx="300" cy="300" rx="100" ry="220" transform="rotate(-35 300 300)"/><ellipse cx="300" cy="300" rx="140" ry="260" transform="rotate(-35 300 300)"/></g></svg>
+    <div class="slide-header">
+      <div><span class="slide-eyebrow">Aménagement · 19</span><h2 class="slide-title">Proposition de <span class="accent">mapping</span></h2></div>
+      <span class="slide-num"><strong>19</strong> / LIEU</span>
+    </div>
+    <div class="slide-content">
+      <p class="mapping-intro">Trois aménagements intérieurs proposés pour le <strong>Bahama West Mamas</strong>. Chacun redessine la salle, le bar et l'espace lounge — <span class="hl">à départager avec la direction</span> avant d'engager les travaux.</p>
+      <div class="mapping-grid">
+        <a class="mapping-card" href="https://youtu.be/zKsu-Vigg-g" target="_blank" rel="noopener">
+          <span class="mapping-thumb"><span class="mapping-play"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg></span></span>
+          <span class="mapping-num">Proposition 01</span>
+          <span class="mapping-desc">Aménagement complet : salle, bar et espace lounge.</span>
+          <span class="mapping-link">Voir la présentation</span>
+        </a>
+        <a class="mapping-card" href="https://youtu.be/RJ0yv6cAkWc" target="_blank" rel="noopener">
+          <span class="mapping-thumb"><span class="mapping-play"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg></span></span>
+          <span class="mapping-num">Proposition 02</span>
+          <span class="mapping-desc">Aménagement complet : salle, bar et espace lounge.</span>
+          <span class="mapping-link">Voir la présentation</span>
+        </a>
+        <a class="mapping-card" href="https://youtu.be/0cRos3xqYWQ" target="_blank" rel="noopener">
+          <span class="mapping-thumb"><span class="mapping-play"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg></span></span>
+          <span class="mapping-num">Proposition 03</span>
+          <span class="mapping-desc">Aménagement complet : salle, bar et espace lounge.</span>
+          <span class="mapping-link">Voir la présentation</span>
+        </a>
+      </div>
+      <p class="mapping-note">Chaque vignette ouvre la présentation complète de l'aménagement dans un nouvel onglet.</p>
+    </div>
+  </section>
+
 </main>
 
 <!-- Modal zoom doc (overlay + image zoom + bouton fermer) -->
@@ -1225,7 +1274,7 @@
 
 <nav class="nav-bar" aria-label="Navigation des slides">
   <button type="button" class="nav-btn prev" aria-label="Slide précédente">‹</button>
-  <span class="counter"><span class="current" id="cur">01</span> / <span class="total" id="tot">21</span></span>
+  <span class="counter"><span class="current" id="cur">01</span> / <span class="total" id="tot">22</span></span>
   <div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
   <button type="button" class="nav-btn next" aria-label="Slide suivante">›</button>
   <button type="button" class="nav-action" id="fs-btn">⛶ Plein écran</button>

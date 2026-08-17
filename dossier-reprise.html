@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-  BAHAMA WEST MAMAS — Dossier de Reprise · Slide Deck navigable (Canva-like)
+  CLUB 77 — Dossier de Reprise · Slide Deck navigable (Canva-like)
   20 slides · Navigation ← → · Plein écran F · Impression PDF P
   v3.0 — Pour Hybie FAITH · Août 2026
 -->
@@ -8,21 +8,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dossier de Reprise — BAHAMA WEST MAMAS · Hybie FAITH</title>
-<meta name="description" content="Candidature officielle à la reprise du Bahama West Mamas · Hybie FAITH · État de San Andreas">
+<title>Dossier de Reprise — CLUB 77 · Hybie FAITH</title>
+<meta name="description" content="Candidature officielle à la reprise du Club 77 · Hybie FAITH · État de San Andreas">
 <meta name="robots" content="noindex">
-<link rel="icon" type="image/png" href="_ressources/visuels/logo-bahama-west-mamas.png">
+<link rel="icon" type="image/png" href="_ressources/visuels/logo-club77-neon-transparent.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,800;1,900&family=JetBrains+Mono:wght@400;500;600;700&family=Pacifico&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#07090B;--bg-2:#0C1117;--surface:#131A21;--surface-2:#1A2430;--surface-3:#22303C;
-    --violet:#2DD4E8;--violet-bright:#7FE9F5;--violet-deep:#0E9BB5;--violet-glow:#B8F4FA;
+    --bg:#0A0A0A;--bg-2:#120F18;--surface:#1A1622;--surface-2:#221C2E;--surface-3:#2A2238;
+    --violet:#A855F7;--violet-bright:#C084FC;--violet-deep:#7C3AED;--violet-glow:#D8B4FE;
     --pink:#EC4899;--pink-bright:#F472B6;--pink-deep:#DB2777;--pink-glow:#FBCFE8;
-    --text:#FFFFFF;--text-soft:#C2CDD6;--text-dim:#75818C;
-    --border:rgba(255,255,255,.08);--border-strong:rgba(45,212,232,.32);--border-pink:rgba(236,72,153,.32);
-    --glow-v:0 0 24px rgba(45,212,232,.55);--glow-p:0 0 24px rgba(236,72,153,.55);
+    --text:#FFFFFF;--text-soft:#C8C0D8;--text-dim:#7A7388;
+    --border:rgba(255,255,255,.08);--border-strong:rgba(168,85,247,.32);--border-pink:rgba(236,72,153,.32);
+    --glow-v:0 0 24px rgba(168,85,247,.55);--glow-p:0 0 24px rgba(236,72,153,.55);
     --slide-w:1472px;--slide-h:828px;--ease:cubic-bezier(.16,1,.3,1);
   }
   *{box-sizing:border-box;-webkit-font-smoothing:antialiased;margin:0;padding:0}
@@ -34,7 +34,7 @@
   }
   body::before{
     content:'';position:fixed;inset:0;
-    background:radial-gradient(ellipse at 20% 30%,rgba(45,212,232,.06),transparent 55%),radial-gradient(ellipse at 80% 70%,rgba(236,72,153,.05),transparent 55%);
+    background:radial-gradient(ellipse at 20% 30%,rgba(168,85,247,.06),transparent 55%),radial-gradient(ellipse at 80% 70%,rgba(236,72,153,.05),transparent 55%);
     pointer-events:none;z-index:0;
   }
   a{color:inherit;text-decoration:none}
@@ -45,7 +45,7 @@
     position:relative;width:var(--slide-w);height:var(--slide-h);
     max-width:calc(100vw - 24px);max-height:calc(100vh - 78px);aspect-ratio:16 / 9;
     background:var(--bg);border:1px solid var(--border);border-radius:14px;overflow:hidden;
-    box-shadow:0 30px 80px rgba(0,0,0,.7),0 0 0 1px rgba(45,212,232,.06) inset;z-index:2;
+    box-shadow:0 30px 80px rgba(0,0,0,.7),0 0 0 1px rgba(168,85,247,.06) inset;z-index:2;
   }
   .slide{
     position:absolute;inset:0;padding:36px 48px;
@@ -131,8 +131,8 @@
     margin-bottom:40px;font-weight:700;
   }
   .cover-logo-img{
-    width:300px;height:auto;margin-bottom:20px;
-    filter:drop-shadow(0 0 38px rgba(45,212,232,.65)) drop-shadow(0 0 60px rgba(236,72,153,.35));
+    width:360px;height:auto;margin-bottom:22px;
+    filter:drop-shadow(0 0 38px rgba(168,85,247,.65)) drop-shadow(0 0 60px rgba(236,72,153,.35));
     animation:logoFloat 6s ease-in-out infinite;
   }
   @keyframes logoFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
@@ -153,7 +153,7 @@
   .toc-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:2px 7px;border-radius:4px;border:1px solid var(--pink);color:var(--pink-bright);background:rgba(236,72,153,.08)}
 
   /* VISION */
-  .slide.vision-slide{padding:0;text-align:center;background:linear-gradient(rgba(10,10,10,.86),rgba(10,10,10,.92)),url('_ressources/visuels/piste de danse club 77.png') center/cover no-repeat,radial-gradient(ellipse at 30% 40%,rgba(45,212,232,.22),transparent 55%),radial-gradient(ellipse at 70% 60%,rgba(236,72,153,.18),transparent 55%),var(--bg)}
+  .slide.vision-slide{padding:0;text-align:center;background:linear-gradient(rgba(10,10,10,.86),rgba(10,10,10,.92)),url('_ressources/visuels/piste de danse club 77.png') center/cover no-repeat,radial-gradient(ellipse at 30% 40%,rgba(168,85,247,.22),transparent 55%),radial-gradient(ellipse at 70% 60%,rgba(236,72,153,.18),transparent 55%),var(--bg)}
   .vision-inner{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 60px;position:relative;z-index:2;gap:6px}
   .vision-eyebrow{font-family:'Pacifico',cursive;font-size:32px;color:var(--pink);text-shadow:var(--glow-p);margin-bottom:14px}
   .vision-punchline{font-family:'Anton',sans-serif;font-size:104px;line-height:1.02;text-transform:uppercase;letter-spacing:-.01em;margin-bottom:18px;color:#fff}
@@ -166,21 +166,6 @@
   .vision-divider span{display:inline-block;width:46px;height:4px;border-radius:2px;background:var(--violet);box-shadow:0 0 12px var(--violet)}
   .vision-divider span:nth-child(2){background:#fff;width:18px;box-shadow:0 0 10px #fff}
   .vision-divider span:nth-child(3){background:var(--pink);box-shadow:0 0 12px var(--pink)}
-  .mapping-intro{font-size:15.5px;line-height:1.6;color:var(--text-soft);max-width:1000px;margin-bottom:20px}
-  .mapping-intro strong{color:var(--text);font-weight:600}
-  .mapping-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-  .mapping-card{display:flex;flex-direction:column;gap:8px;padding:14px;border:1px solid var(--border-strong);border-radius:14px;background:linear-gradient(160deg,var(--surface),var(--bg-2));text-decoration:none;transition:transform .3s var(--ease),box-shadow .3s var(--ease),border-color .3s var(--ease)}
-  .mapping-card:hover{transform:translateY(-4px);box-shadow:var(--glow-p);border-color:var(--pink)}
-  .mapping-thumb{display:flex;align-items:center;justify-content:center;border-radius:10px;border:1px dashed var(--border-strong);aspect-ratio:16/9;position:relative;overflow:hidden;
-    background:radial-gradient(ellipse at 50% 50%,rgba(236,72,153,.10),transparent 65%),var(--bg)}
-  .mapping-thumb::before{content:'';position:absolute;inset:0;background:url('_ressources/visuels/logo-bahama-west-mamas.png') center/58% no-repeat;opacity:.13}
-  .mapping-play{position:relative;z-index:1;color:var(--pink-bright);display:flex;filter:drop-shadow(0 0 12px rgba(236,72,153,.5));transition:transform .3s var(--ease)}
-  .mapping-card:hover .mapping-play{transform:scale(1.12)}
-  .mapping-num{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--pink-bright);margin-top:2px}
-  .mapping-desc{font-size:13.5px;line-height:1.5;color:var(--text-soft)}
-  .mapping-link{margin-top:auto;padding-top:10px;border-top:1px solid var(--border);font-size:12px;font-weight:600;color:var(--violet-bright)}
-  .mapping-card:hover .mapping-link{color:var(--pink-bright)}
-  .mapping-note{margin-top:16px;font-family:'Playfair Display',serif;font-style:italic;font-size:13px;color:var(--text-dim)}
   .compta-wrap{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:10px 40px}
   .compta-eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--text-dim)}
   .compta-logo{width:230px;height:auto;mix-blend-mode:screen;filter:drop-shadow(0 0 26px rgba(200,162,74,.35))}
@@ -200,12 +185,12 @@
   .triptyque-intro strong{color:var(--text);font-weight:600}
   .triptyque-intro .hl{color:var(--pink-bright);font-weight:600}
   .triptyque{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;flex:1;align-content:stretch}
-  .tri-card{padding:24px 22px;border:1px solid var(--border-strong);border-radius:16px;background:radial-gradient(ellipse at top,rgba(45,212,232,.12),transparent 70%),linear-gradient(160deg,var(--surface),var(--bg-2));display:flex;flex-direction:column;gap:11px;box-shadow:inset 0 0 40px rgba(45,212,232,.06);position:relative;overflow:hidden;transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
+  .tri-card{padding:24px 22px;border:1px solid var(--border-strong);border-radius:16px;background:radial-gradient(ellipse at top,rgba(168,85,247,.12),transparent 70%),linear-gradient(160deg,var(--surface),var(--bg-2));display:flex;flex-direction:column;gap:11px;box-shadow:inset 0 0 40px rgba(168,85,247,.06);position:relative;overflow:hidden;transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
   .tri-card::before{content:"";position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--violet),var(--pink))}
   .tri-card:nth-child(2)::before{background:linear-gradient(90deg,var(--pink),var(--violet-bright))}
   .tri-card:nth-child(3)::before{background:linear-gradient(90deg,var(--violet-bright),var(--pink-bright))}
   .tri-card:hover{transform:translateY(-4px);box-shadow:var(--glow-v)}
-  .tri-icon{font-size:34px;line-height:1;filter:drop-shadow(0 0 14px rgba(45,212,232,.55));margin-bottom:2px}
+  .tri-icon{font-size:34px;line-height:1;filter:drop-shadow(0 0 14px rgba(168,85,247,.55));margin-bottom:2px}
   .tri-num{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--text-dim)}
   .tri-label{font-family:'Anton',sans-serif;font-size:50px;line-height:1;letter-spacing:.04em;text-transform:uppercase;background:linear-gradient(135deg,var(--violet-bright),var(--pink-bright));-webkit-background-clip:text;background-clip:text;color:transparent}
   .tri-card:nth-child(2) .tri-label{background:linear-gradient(135deg,var(--pink-bright),var(--violet-bright));-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -223,7 +208,7 @@
   .bio-dense .bio-meta{margin-bottom:10px;padding:10px 16px}
   .bio-text strong{color:var(--text);font-weight:600}
   .bio-text .hl{color:var(--pink-bright);font-weight:600}
-  .bio-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:12px;padding:12px 16px;border:1px solid var(--border-strong);border-radius:12px;background:linear-gradient(135deg,rgba(45,212,232,.08),rgba(236,72,153,.04))}
+  .bio-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:12px;padding:12px 16px;border:1px solid var(--border-strong);border-radius:12px;background:linear-gradient(135deg,rgba(168,85,247,.08),rgba(236,72,153,.04))}
   .bio-meta-item{display:flex;flex-direction:column;gap:3px}
   .bio-meta-label{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-dim);font-weight:700}
   .bio-meta-value{font-size:13.5px;color:var(--text);font-weight:700}
@@ -232,9 +217,9 @@
     border-radius:14px;overflow:hidden;background:#000;
     position:relative;flex:1;min-height:0;
     border:3px solid transparent;
-    background-image:linear-gradient(#0a0a0a,#0a0a0a),linear-gradient(135deg,#7FE9F5 0%,#E879F9 30%,#EC4899 55%,#F472B6 100%);
+    background-image:linear-gradient(#0a0a0a,#0a0a0a),linear-gradient(135deg,#C084FC 0%,#E879F9 30%,#EC4899 55%,#F472B6 100%);
     background-origin:border-box;background-clip:padding-box,border-box;
-    box-shadow:0 0 28px rgba(236,72,153,.55),inset 0 0 30px rgba(236,72,153,.12),0 0 60px rgba(127,233,245,.3);
+    box-shadow:0 0 28px rgba(236,72,153,.55),inset 0 0 30px rgba(236,72,153,.12),0 0 60px rgba(192,132,252,.3);
   }
   .bio-portrait img{width:100%;height:100%;object-fit:cover;object-position:center top;filter:saturate(.95) contrast(1.06)}
   .bio-portrait::after{content:attr(data-label);position:absolute;left:0;right:0;bottom:0;padding:18px 16px 12px;background:linear-gradient(180deg,transparent,rgba(0,0,0,.92));font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#F472B6;font-weight:700;text-align:center;text-shadow:0 0 10px rgba(236,72,153,.6)}
@@ -254,11 +239,11 @@
   .pourquoi-intro p{font-size:16.5px;line-height:1.7;color:var(--text-soft)}
   .pourquoi-intro p strong{color:var(--text);font-weight:600}
   .pourquoi-intro .hl{color:var(--pink-bright);font-weight:600}
-  .pourquoi-quote{font-family:'Playfair Display',serif;font-style:italic;font-size:22px;color:var(--violet-bright);line-height:1.4;padding-left:16px;border-left:4px solid var(--violet);margin-top:10px;text-shadow:0 0 14px rgba(45,212,232,.3)}
+  .pourquoi-quote{font-family:'Playfair Display',serif;font-style:italic;font-size:22px;color:var(--violet-bright);line-height:1.4;padding-left:16px;border-left:4px solid var(--violet);margin-top:10px;text-shadow:0 0 14px rgba(168,85,247,.3)}
   .pourquoi-cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-content:stretch}
   .pourquoi-card{padding:18px 18px;border:1px solid var(--border-strong);border-radius:12px;background:linear-gradient(160deg,var(--surface),var(--bg-2));display:flex;flex-direction:column;gap:10px;transition:transform .3s var(--ease)}
   .pourquoi-card:hover{transform:translateY(-3px);box-shadow:var(--glow-v)}
-  .pourquoi-card .pc-icon{font-size:28px;line-height:1;filter:drop-shadow(0 0 12px rgba(45,212,232,.55))}
+  .pourquoi-card .pc-icon{font-size:28px;line-height:1;filter:drop-shadow(0 0 12px rgba(168,85,247,.55))}
   .pourquoi-card h4{font-size:14.5px;font-weight:800;color:var(--text);text-transform:uppercase;letter-spacing:.04em}
   .pourquoi-card-sub{font-family:'Playfair Display',serif;font-style:italic;font-size:12.5px;line-height:1.3;color:var(--pink-bright);margin-top:-6px}
   .pourquoi-card p{font-size:13.5px;line-height:1.55;color:var(--text-soft)}
@@ -266,9 +251,9 @@
 
   /* PLACEHOLDER */
   .placeholder-wrap{flex:1;display:flex;align-items:center;justify-content:center;position:relative;z-index:2}
-  .placeholder-card{display:flex;flex-direction:column;align-items:center;text-align:center;padding:42px 38px;border:2px dashed var(--border-strong);border-radius:20px;background:radial-gradient(ellipse at center,rgba(45,212,232,.06),transparent 70%),linear-gradient(160deg,var(--surface),var(--bg-2));max-width:580px;gap:16px;box-shadow:inset 0 0 60px rgba(45,212,232,.06)}
-  .placeholder-icon{font-size:56px;line-height:1;filter:drop-shadow(0 0 24px rgba(45,212,232,.55));animation:pulseGlow 2.5s ease-in-out infinite}
-  @keyframes pulseGlow{0%,100%{filter:drop-shadow(0 0 24px rgba(45,212,232,.55))}50%{filter:drop-shadow(0 0 36px rgba(236,72,153,.7))}}
+  .placeholder-card{display:flex;flex-direction:column;align-items:center;text-align:center;padding:42px 38px;border:2px dashed var(--border-strong);border-radius:20px;background:radial-gradient(ellipse at center,rgba(168,85,247,.06),transparent 70%),linear-gradient(160deg,var(--surface),var(--bg-2));max-width:580px;gap:16px;box-shadow:inset 0 0 60px rgba(168,85,247,.06)}
+  .placeholder-icon{font-size:56px;line-height:1;filter:drop-shadow(0 0 24px rgba(168,85,247,.55));animation:pulseGlow 2.5s ease-in-out infinite}
+  @keyframes pulseGlow{0%,100%{filter:drop-shadow(0 0 24px rgba(168,85,247,.55))}50%{filter:drop-shadow(0 0 36px rgba(236,72,153,.7))}}
   .placeholder-title{font-family:'Anton',sans-serif;font-size:40px;text-transform:uppercase;letter-spacing:.04em;background:linear-gradient(120deg,#fff,var(--violet-bright),var(--pink-bright));-webkit-background-clip:text;background-clip:text;color:transparent}
   .placeholder-desc{color:var(--text-soft);font-size:13.5px;line-height:1.65;max-width:440px}
   .placeholder-desc strong{color:var(--text)}
@@ -288,18 +273,18 @@
   .org-node.has-photo{cursor:zoom-in}
   .org-node.has-photo:hover{box-shadow:0 0 22px rgba(251,191,36,.35)}
   .org-node-bubble img{width:100%;height:100%;object-fit:cover;object-position:center top}
-  .org-node-bubble.bubble-placeholder{display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(127,233,245,.35),rgba(236,72,153,.22));border-color:var(--violet-bright)}
+  .org-node-bubble.bubble-placeholder{display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(192,132,252,.35),rgba(236,72,153,.22));border-color:var(--violet-bright)}
   .org-node-bubble.bubble-placeholder span{font-family:'Anton',sans-serif;font-size:14px;color:#fff;letter-spacing:.04em;text-shadow:0 0 8px rgba(236,72,153,.6)}
   .org-node.lead{border-color:#FBBF24;background:linear-gradient(135deg,rgba(251,191,36,.15),rgba(236,72,153,.08));box-shadow:0 0 18px rgba(251,191,36,.35),inset 0 0 12px rgba(251,191,36,.1)}
   .org-node.lead strong{color:#fff}
   .org-node.lead span{color:#FBBF24;font-weight:700}
   .org-node.lead .org-node-bubble{border-color:#FBBF24;box-shadow:0 0 16px rgba(251,191,36,.6)}
-  .org-node.warn{border-color:var(--violet);background:linear-gradient(135deg,rgba(45,212,232,.14),rgba(45,212,232,.04));border-style:dashed}
+  .org-node.warn{border-color:var(--violet);background:linear-gradient(135deg,rgba(168,85,247,.14),rgba(168,85,247,.04));border-style:dashed}
   .org-node.warn .org-node-bubble{border-color:var(--violet);filter:grayscale(.4) opacity(.7)}
   .org-node.warn span{color:var(--violet-bright)}
   .org-effectif{
     margin-top:auto;padding:10px 14px;border:1px solid var(--border-pink);border-radius:10px;
-    background:linear-gradient(135deg,rgba(236,72,153,.06),rgba(45,212,232,.04));
+    background:linear-gradient(135deg,rgba(236,72,153,.06),rgba(168,85,247,.04));
     display:flex;flex-wrap:wrap;justify-content:space-around;gap:12px;
   }
   .org-effectif-item{display:flex;flex-direction:column;align-items:center;gap:2px}
@@ -319,15 +304,15 @@
   /* LOCALISATION */
   .locale{display:grid;grid-template-columns:1fr 1.1fr;gap:22px;flex:1;overflow:hidden}
   .locale-photos{display:flex;flex-direction:column;gap:10px;min-height:0}
-  .locale-photo{flex:1;border-radius:14px;overflow:hidden;border:1px solid var(--border-strong);box-shadow:inset 0 0 24px rgba(45,212,232,.1),0 0 18px rgba(45,212,232,.12);position:relative;min-height:0;background:#000}
+  .locale-photo{flex:1;border-radius:14px;overflow:hidden;border:1px solid var(--border-strong);box-shadow:inset 0 0 24px rgba(168,85,247,.1),0 0 18px rgba(168,85,247,.12);position:relative;min-height:0;background:#000}
   .locale-photo img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(1.05) contrast(1.05)}
   .locale-photo::after{content:attr(data-label);position:absolute;bottom:0;left:0;right:0;padding:18px 14px 10px;background:linear-gradient(180deg,transparent,rgba(0,0,0,.88));font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--text);font-weight:700;text-align:center}
   .locale-info{display:flex;flex-direction:column;gap:12px;justify-content:center;min-height:0}
   .locale-info p{font-size:15.5px;line-height:1.65;color:var(--text-soft)}
   .locale-info p strong{color:var(--text);font-weight:600}
   .locale-info .hl{color:var(--pink-bright);font-weight:600}
-  .locale-map{flex:1;min-height:140px;border-radius:14px;overflow:hidden;border:1px solid var(--border-strong);box-shadow:inset 0 0 24px rgba(45,212,232,.1),0 0 18px rgba(45,212,232,.12);position:relative;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;padding:18px;background:radial-gradient(ellipse at center,rgba(45,212,232,.08),transparent 70%),linear-gradient(160deg,var(--surface),var(--bg-2))}
-  .locale-map::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(45,212,232,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(45,212,232,.05) 1px,transparent 1px);background-size:24px 24px;opacity:.5;pointer-events:none}
+  .locale-map{flex:1;min-height:140px;border-radius:14px;overflow:hidden;border:1px solid var(--border-strong);box-shadow:inset 0 0 24px rgba(168,85,247,.1),0 0 18px rgba(168,85,247,.12);position:relative;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;padding:18px;background:radial-gradient(ellipse at center,rgba(168,85,247,.08),transparent 70%),linear-gradient(160deg,var(--surface),var(--bg-2))}
+  .locale-map::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(168,85,247,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(168,85,247,.05) 1px,transparent 1px);background-size:24px 24px;opacity:.5;pointer-events:none}
   .locale-map img{width:100%;height:100%;object-fit:contain;display:block;position:relative;z-index:2}
   .locale-map.empty .map-pin{font-size:42px;filter:drop-shadow(0 0 16px rgba(236,72,153,.7));position:relative;z-index:2;animation:pulseGlow 2.5s ease-in-out infinite}
   .locale-map.empty .map-text{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-dim);text-align:center;position:relative;z-index:2;line-height:1.55}
@@ -355,7 +340,7 @@
   .comm-card:nth-child(2){border-top-color:var(--pink)}
   .comm-card:nth-child(3){border-top-color:var(--violet-bright)}
   .comm-card:hover{transform:translateY(-4px)}
-  .comm-icon{font-family:'Anton',sans-serif;font-size:18px;letter-spacing:.05em;color:var(--violet-bright);font-weight:400;width:46px;height:46px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(45,212,232,.18),rgba(236,72,153,.12));border:1px solid var(--border-strong)}
+  .comm-icon{font-family:'Anton',sans-serif;font-size:18px;letter-spacing:.05em;color:var(--violet-bright);font-weight:400;width:46px;height:46px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(168,85,247,.18),rgba(236,72,153,.12));border:1px solid var(--border-strong)}
   .comm-title{font-size:15px;font-weight:800;color:var(--text);text-transform:uppercase;letter-spacing:.04em}
   .comm-desc{font-size:13.5px;line-height:1.55;color:var(--text-soft)}
   .comm-desc strong{color:var(--violet-bright);font-weight:600}
@@ -369,17 +354,17 @@
   .part-card:hover{transform:translateY(-2px)}
   .part-card:nth-child(even){border-left-color:var(--pink)}
   .part-card-head{display:flex;align-items:center;gap:8px}
-  .part-icon{font-size:20px;filter:drop-shadow(0 0 8px rgba(45,212,232,.5))}
+  .part-icon{font-size:20px;filter:drop-shadow(0 0 8px rgba(168,85,247,.5))}
   .part-card h4{font-size:13px;font-weight:800;color:var(--text);text-transform:uppercase;letter-spacing:.04em}
   .part-card p{font-size:12px;line-height:1.5;color:var(--text-soft)}
   .part-card p strong{color:var(--pink-bright);font-weight:600}
-  .contreparties-list{display:flex;flex-direction:column;gap:9px;padding:14px;border:1px solid var(--border-pink);border-radius:12px;background:linear-gradient(135deg,rgba(236,72,153,.06),rgba(45,212,232,.04))}
+  .contreparties-list{display:flex;flex-direction:column;gap:9px;padding:14px;border:1px solid var(--border-pink);border-radius:12px;background:linear-gradient(135deg,rgba(236,72,153,.06),rgba(168,85,247,.04))}
   .contreparties-list li{list-style:none;display:flex;gap:10px;font-size:13px;line-height:1.5;color:var(--text-soft);align-items:flex-start}
   .contreparties-list li strong{color:var(--text);font-weight:600}
   .contreparties-list li::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--pink);box-shadow:0 0 8px var(--pink);margin-top:7px;flex-shrink:0}
   .contre-footer{padding-top:10px;font-size:12px;font-style:italic;color:var(--text-dim);line-height:1.55}
   .contre-footer strong{color:var(--violet-bright);font-style:normal;font-weight:600}
-  .part-method{margin-top:18px;padding:18px 22px;border:1px solid var(--border-strong);border-radius:14px;background:linear-gradient(135deg,rgba(45,212,232,.05),rgba(236,72,153,.04));position:relative;overflow:hidden}
+  .part-method{margin-top:18px;padding:18px 22px;border:1px solid var(--border-strong);border-radius:14px;background:linear-gradient(135deg,rgba(168,85,247,.05),rgba(236,72,153,.04));position:relative;overflow:hidden}
   .part-method::before{content:'';position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,var(--violet),var(--pink),var(--violet-bright))}
   .part-method-title{font-family:'Anton',sans-serif;font-size:16px;letter-spacing:.04em;text-transform:uppercase;background:linear-gradient(135deg,var(--violet-bright),var(--pink-bright));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:12px;display:flex;align-items:center;gap:10px}
   .part-method-title::before{content:'';width:24px;height:2px;background:var(--pink);border-radius:1px;box-shadow:0 0 8px var(--pink)}
@@ -392,14 +377,14 @@
   /* ÉVÈNEMENTS */
   .evts-wrap{display:flex;flex-direction:column;gap:18px;flex:1;justify-content:center}
   .evts{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
-  .evts-calendar{padding:14px 20px;border:1px solid var(--border-strong);border-radius:14px;background:linear-gradient(135deg,rgba(45,212,232,.05),rgba(236,72,153,.04));position:relative;overflow:hidden}
+  .evts-calendar{padding:14px 20px;border:1px solid var(--border-strong);border-radius:14px;background:linear-gradient(135deg,rgba(168,85,247,.05),rgba(236,72,153,.04));position:relative;overflow:hidden}
   .evts-calendar::before{content:'';position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,var(--violet),var(--pink),var(--violet-bright))}
   .evts-calendar-title{font-family:'Anton',sans-serif;font-size:16px;letter-spacing:.04em;text-transform:uppercase;background:linear-gradient(135deg,var(--violet-bright),var(--pink-bright));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:12px;display:flex;align-items:center;gap:10px}
   .evts-calendar-title::before{content:'';width:24px;height:2px;background:var(--pink);border-radius:1px;box-shadow:0 0 8px var(--pink)}
   .calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}
   .day-card{padding:9px 8px;border:1px solid var(--border);border-radius:8px;background:linear-gradient(135deg,var(--surface),var(--bg-2));display:flex;flex-direction:column;gap:4px;text-align:center}
   .day-card.closed{opacity:.45;border-style:dashed}
-  .day-card.peak{border-color:var(--pink);background:linear-gradient(135deg,rgba(236,72,153,.12),rgba(45,212,232,.06));box-shadow:0 0 12px rgba(236,72,153,.18)}
+  .day-card.peak{border-color:var(--pink);background:linear-gradient(135deg,rgba(236,72,153,.12),rgba(168,85,247,.06));box-shadow:0 0 12px rgba(236,72,153,.18)}
   .day-name{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-dim);font-weight:700}
   .day-card.peak .day-name{color:var(--pink-bright)}
   .day-event{font-size:11px;color:var(--text);font-weight:600;line-height:1.3}
@@ -407,13 +392,13 @@
   .evt{padding:14px 12px;border:1px solid var(--border-strong);border-radius:12px;background:linear-gradient(180deg,var(--surface),var(--bg-2));display:flex;flex-direction:column;gap:7px;transition:transform .3s var(--ease),box-shadow .3s var(--ease);position:relative;overflow:hidden}
   .evt::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--violet),var(--pink))}
   .evt:hover{transform:translateY(-4px);box-shadow:var(--glow-v)}
-  .evt-icon{font-size:26px;filter:drop-shadow(0 0 10px rgba(45,212,232,.5))}
+  .evt-icon{font-size:26px;filter:drop-shadow(0 0 10px rgba(168,85,247,.5))}
   .evt-title{font-size:13.5px;font-weight:800;color:var(--text);text-transform:uppercase;letter-spacing:.03em}
   .evt-desc{font-size:12px;line-height:1.5;color:var(--text-soft)}
   .evt-desc strong{color:var(--pink-bright);font-weight:600}
 
-  /* SIGNATURE — Les Escales */
-  .slide.signature-slide{padding:0;text-align:center;background:radial-gradient(ellipse at 50% 50%,rgba(236,72,153,.18),transparent 60%),radial-gradient(ellipse at 30% 30%,rgba(45,212,232,.15),transparent 55%),var(--bg)}
+  /* SIGNATURE — Les Nuits du 7 */
+  .slide.signature-slide{padding:0;text-align:center;background:radial-gradient(ellipse at 50% 50%,rgba(236,72,153,.18),transparent 60%),radial-gradient(ellipse at 30% 30%,rgba(168,85,247,.15),transparent 55%),var(--bg)}
   .signature-inner{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:34px 60px;gap:14px;position:relative;z-index:2}
   .signature-eyebrow{font-family:'Pacifico',cursive;font-size:22px;color:var(--pink);text-shadow:var(--glow-p)}
   .signature-title{font-family:'Anton',sans-serif;font-size:88px;line-height:.95;text-transform:uppercase;letter-spacing:.01em;background:linear-gradient(135deg,#fff 0%,var(--pink-bright) 50%,var(--violet-bright) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 40px rgba(236,72,153,.18)}
@@ -435,7 +420,7 @@
   .poste{padding:8px 11px;border:1px solid var(--border);border-radius:9px;background:linear-gradient(135deg,var(--surface),var(--bg-2));display:flex;align-items:center;justify-content:space-between;gap:10px}
   .poste-name{font-size:12px;font-weight:600;color:var(--text)}
   .poste-count{font-family:'Anton',sans-serif;font-size:15px;color:var(--pink-bright);min-width:28px;text-align:right}
-  .valeurs{padding:10px 13px;border:1px solid var(--border-strong);border-radius:10px;background:linear-gradient(135deg,rgba(45,212,232,.08),rgba(236,72,153,.04))}
+  .valeurs{padding:10px 13px;border:1px solid var(--border-strong);border-radius:10px;background:linear-gradient(135deg,rgba(168,85,247,.08),rgba(236,72,153,.04))}
   .valeurs h4{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--violet-bright);margin-bottom:7px}
   .valeurs-list{display:flex;flex-wrap:wrap;gap:5px}
   .valeur-tag{padding:4px 9px;border-radius:999px;font-size:11px;font-weight:600;background:rgba(236,72,153,.1);color:var(--pink-bright);border:1px solid rgba(236,72,153,.3)}
@@ -449,9 +434,9 @@
   .objs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;flex:1;align-content:center}
   .obj-col{padding:18px;border:1px solid var(--border-strong);border-radius:14px;background:linear-gradient(160deg,var(--surface),var(--bg-2));display:flex;flex-direction:column;gap:13px}
   .obj-head{display:flex;align-items:center;gap:10px;padding-bottom:10px;border-bottom:1px solid var(--border-strong)}
-  .obj-tag{padding:4px 10px;border-radius:999px;font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;background:rgba(45,212,232,.15);color:var(--violet-bright);border:1px solid var(--violet)}
+  .obj-tag{padding:4px 10px;border-radius:999px;font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;background:rgba(168,85,247,.15);color:var(--violet-bright);border:1px solid var(--violet)}
   .obj-col:nth-child(2) .obj-tag{background:rgba(236,72,153,.15);color:var(--pink-bright);border-color:var(--pink)}
-  .obj-col:nth-child(3) .obj-tag{background:rgba(127,233,245,.15);color:var(--violet-bright);border-color:var(--violet-bright)}
+  .obj-col:nth-child(3) .obj-tag{background:rgba(192,132,252,.15);color:var(--violet-bright);border-color:var(--violet-bright)}
   .obj-title{font-family:'Anton',sans-serif;font-size:20px;color:var(--text);letter-spacing:.02em}
   .obj-list{list-style:none;display:flex;flex-direction:column;gap:8px}
   .obj-list li{display:flex;gap:8px;font-size:13.5px;color:var(--text-soft);line-height:1.5}
@@ -470,14 +455,14 @@
   .projet-desc{font-size:13px;line-height:1.5;color:var(--text-dim)}
 
   /* CONCLUSION */
-  .slide.conclusion{padding:0;text-align:center;background:linear-gradient(rgba(10,10,10,.9),rgba(10,10,10,.94)),url('_ressources/visuels/piste de danse club 77.png') center/cover no-repeat,radial-gradient(ellipse at center,rgba(45,212,232,.18),transparent 60%),var(--bg)}
+  .slide.conclusion{padding:0;text-align:center;background:linear-gradient(rgba(10,10,10,.9),rgba(10,10,10,.94)),url('_ressources/visuels/piste de danse club 77.png') center/cover no-repeat,radial-gradient(ellipse at center,rgba(168,85,247,.18),transparent 60%),var(--bg)}
   .concl-inner{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:36px;position:relative;z-index:2}
-  .concl-logo img{width:190px;filter:drop-shadow(0 0 38px rgba(45,212,232,.6)) drop-shadow(0 0 60px rgba(236,72,153,.3));animation:logoFloat 6s ease-in-out infinite}
+  .concl-logo img{width:230px;filter:drop-shadow(0 0 38px rgba(168,85,247,.6)) drop-shadow(0 0 60px rgba(236,72,153,.3));animation:logoFloat 6s ease-in-out infinite}
   .concl-title{font-family:'Anton',sans-serif;font-size:88px;line-height:1;background:linear-gradient(135deg,#fff,var(--violet-bright),var(--pink-bright));-webkit-background-clip:text;background-clip:text;color:transparent;text-transform:uppercase;letter-spacing:.02em}
   .concl-sub{font-family:'Playfair Display',serif;font-style:italic;font-size:15.5px;color:var(--text-soft);max-width:760px;line-height:1.55}
   .concl-sub strong{color:var(--text);font-weight:500}
   .concl-contact{display:flex;gap:12px;margin-top:6px;flex-wrap:wrap;justify-content:center}
-  .concl-contact-item{padding:9px 16px;border:1.5px solid var(--violet);border-radius:999px;display:flex;align-items:center;gap:10px;background:linear-gradient(135deg,rgba(45,212,232,.08),rgba(236,72,153,.04));box-shadow:inset 0 0 18px rgba(45,212,232,.18)}
+  .concl-contact-item{padding:9px 16px;border:1.5px solid var(--violet);border-radius:999px;display:flex;align-items:center;gap:10px;background:linear-gradient(135deg,rgba(168,85,247,.08),rgba(236,72,153,.04));box-shadow:inset 0 0 18px rgba(168,85,247,.18)}
   .concl-contact-item:nth-child(2){border-color:var(--pink)}
   .concl-contact-label{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-dim);font-weight:700}
   .concl-contact-value{font-size:13.5px;font-weight:700;color:var(--text)}
@@ -553,19 +538,19 @@
   .doc-chapter li strong{color:var(--text);font-weight:600}
 
   /* ANNEXES CAROUSEL — image-based, zoom from origin */
-  .slide.annexes-carousel{padding:24px 30px;background:radial-gradient(ellipse at center,rgba(45,212,232,.08),transparent 65%),var(--bg)}
+  .slide.annexes-carousel{padding:24px 30px;background:radial-gradient(ellipse at center,rgba(168,85,247,.08),transparent 65%),var(--bg)}
   .annexe-carousel-wrap{flex:1;display:flex;flex-direction:column;gap:14px;overflow:hidden;min-height:0}
   .carousel-stage{flex:1;position:relative;display:flex;align-items:center;gap:14px;min-height:0;overflow:hidden}
   .carousel-track-wrap{flex:1;overflow:hidden;position:relative;height:100%}
   .carousel-track{display:flex;gap:20px;height:100%;align-items:center;transition:transform .5s cubic-bezier(.4,0,.2,1);will-change:transform}
   .carousel-slide{flex:0 0 calc((100% - 40px) / 3);display:flex;flex-direction:column;gap:10px;align-items:center;height:100%;justify-content:center}
   .doc-thumb{width:100%;max-height:calc(100% - 30px);aspect-ratio:5/7;background:#fafafa;border-radius:6px;overflow:hidden;position:relative;cursor:zoom-in;transition:transform .25s ease,box-shadow .25s ease;box-shadow:0 14px 28px rgba(0,0,0,.45),0 0 0 1px rgba(0,0,0,.06) inset}
-  .doc-thumb:hover{transform:scale(1.04) translateY(-3px);box-shadow:0 22px 38px rgba(0,0,0,.6),0 0 22px rgba(45,212,232,.35),0 0 0 1px rgba(0,0,0,.06) inset}
+  .doc-thumb:hover{transform:scale(1.04) translateY(-3px);box-shadow:0 22px 38px rgba(0,0,0,.6),0 0 22px rgba(168,85,247,.35),0 0 0 1px rgba(0,0,0,.06) inset}
   .doc-thumb img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;position:relative;z-index:2}
   .doc-thumb.placeholder{background:linear-gradient(165deg,#1a1622 0%,#0c0a12 100%);border:1px dashed rgba(251,191,36,.35)}
   .doc-thumb.placeholder img{display:none}
   .doc-thumb.placeholder::before{content:attr(data-placeholder);position:absolute;left:0;right:0;top:55%;text-align:center;color:#FBBF24;font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-family:'JetBrains Mono',monospace;font-weight:700;padding:0 18px;line-height:1.7;z-index:1;white-space:pre-line}
-  .doc-thumb.placeholder::after{content:'';position:absolute;top:18%;left:50%;transform:translateX(-50%);width:72px;height:72px;background:url('_ressources/visuels/logo-bahama-west-mamas.png') center/contain no-repeat;opacity:.45;z-index:1}
+  .doc-thumb.placeholder::after{content:'';position:absolute;top:18%;left:50%;transform:translateX(-50%);width:72px;height:72px;background:url('_ressources/visuels/logo-club77-neon-transparent.png') center/contain no-repeat;opacity:.45;z-index:1}
   .doc-label{font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--text-soft);text-align:center;font-weight:700;line-height:1.3}
   .carousel-btn{width:44px;height:44px;border-radius:50%;background:var(--surface-2);color:var(--text);border:1px solid var(--border-strong);display:flex;align-items:center;justify-content:center;font-size:20px;cursor:pointer;transition:200ms;flex-shrink:0;z-index:2}
   .carousel-btn:hover{background:#FBBF24;color:#000;border-color:#FBBF24;box-shadow:0 0 18px rgba(251,191,36,.55)}
@@ -574,7 +559,7 @@
   .carousel-counter{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.18em;color:var(--text-soft)}
   .carousel-counter strong{color:#FBBF24;font-weight:700}
   .carousel-thumbs{display:flex;gap:6px}
-  .carousel-thumb-dot{width:26px;height:6px;border-radius:3px;background:rgba(45,212,232,.25);cursor:pointer;transition:200ms;border:none;padding:0}
+  .carousel-thumb-dot{width:26px;height:6px;border-radius:3px;background:rgba(168,85,247,.25);cursor:pointer;transition:200ms;border:none;padding:0}
   .carousel-thumb-dot.active{background:#FBBF24;box-shadow:0 0 12px rgba(251,191,36,.65)}
   .carousel-thumb-dot:hover{background:rgba(251,191,36,.6)}
   .carousel-hint{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:var(--text-dim);text-transform:uppercase;pointer-events:none;opacity:.6}
@@ -596,7 +581,7 @@
     transition:transform .55s var(--ease),opacity .55s var(--ease),box-shadow .35s var(--ease);
     font-family:'Inter',sans-serif;overflow:hidden;cursor:pointer;
   }
-  .annexe-doc.active{transform:scale(1) translateX(0) rotate(0);z-index:5;opacity:1;cursor:default;box-shadow:0 30px 70px rgba(0,0,0,.7),0 0 28px rgba(45,212,232,.25),0 0 0 1px rgba(0,0,0,.05) inset}
+  .annexe-doc.active{transform:scale(1) translateX(0) rotate(0);z-index:5;opacity:1;cursor:default;box-shadow:0 30px 70px rgba(0,0,0,.7),0 0 28px rgba(168,85,247,.25),0 0 0 1px rgba(0,0,0,.05) inset}
   .annexe-doc.prev-doc{transform:scale(.84) translateX(-320px) rotate(-3.5deg);z-index:3;opacity:.55;filter:brightness(.9)}
   .annexe-doc.next-doc{transform:scale(.84) translateX(320px) rotate(3.5deg);z-index:3;opacity:.55;filter:brightness(.9)}
   .annexe-doc.far-prev{transform:scale(.72) translateX(-460px) rotate(-6deg);z-index:1;opacity:.3;filter:brightness(.78)}
@@ -639,7 +624,7 @@
   .annexe-nav-counter .label{display:block;font-size:9px;letter-spacing:.22em;color:var(--text-dim);text-transform:uppercase;margin-top:2px}
 
   /* DECK LOGO (overlay top-right) */
-  .deck-logo{position:absolute;top:14px;right:18px;width:78px;height:auto;z-index:6;opacity:.95;filter:drop-shadow(0 0 18px rgba(45,212,232,.65)) drop-shadow(0 0 28px rgba(236,72,153,.35));pointer-events:none;transition:opacity .35s var(--ease)}
+  .deck-logo{position:absolute;top:14px;right:18px;width:78px;height:auto;z-index:6;opacity:.95;filter:drop-shadow(0 0 18px rgba(168,85,247,.65)) drop-shadow(0 0 28px rgba(236,72,153,.35));pointer-events:none;transition:opacity .35s var(--ease)}
   .deck.hide-logo .deck-logo{opacity:0}
 
   /* FULLSCREEN */
@@ -662,21 +647,21 @@
 <body>
 
 <svg width="0" height="0" style="position:absolute"><defs>
-  <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2DD4E8" stop-opacity="0.9"/><stop offset="100%" stop-color="#EC4899" stop-opacity="0.5"/></linearGradient>
-  <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#7FE9F5"/><stop offset="100%" stop-color="#F472B6"/></linearGradient>
+  <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#A855F7" stop-opacity="0.9"/><stop offset="100%" stop-color="#EC4899" stop-opacity="0.5"/></linearGradient>
+  <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#C084FC"/><stop offset="100%" stop-color="#F472B6"/></linearGradient>
 </defs></svg>
 
 <main class="deck">
-<img class="deck-logo" src="_ressources/visuels/logo-bahama-west-mamas.png" alt="Bahama West Mamas">
+<img class="deck-logo" src="_ressources/visuels/logo-club77-neon-transparent.png" alt="Club 77">
 
   <!-- 01 · COVER -->
   <section class="slide cover active">
     <div class="cover-inner">
       <span class="cover-tag">Dossier de candidature à la reprise</span>
-      <img class="cover-logo-img" src="_ressources/visuels/logo-bahama-west-mamas.png" alt="Logo Bahama West Mamas">
-      <p class="cover-quote">« Faire du <strong>Bahama West Mamas</strong> bien plus qu'un club — un univers <strong>afro-oriental</strong> mêlant musique, chicha et élégance, un lieu où chaque soirée devient un <strong>moment d'exception</strong>. »</p>
+      <img class="cover-logo-img" src="_ressources/visuels/logo-club77-neon-transparent.png" alt="Logo Club 77">
+      <p class="cover-quote">« Faire du <strong>Club 77</strong> bien plus qu'un club — un univers <strong>afro-oriental</strong> mêlant musique, chicha et élégance, un lieu où chaque soirée devient un <strong>moment d'exception</strong>. »</p>
       <div class="cover-divider"><span></span><span></span><span></span></div>
-      <p class="cover-meta">Présenté à la direction du Bahama West Mamas<br><strong>Constitué par Hybie FAITH</strong><br>Août 2026</p>
+      <p class="cover-meta">Présenté à la direction du Club 77<br><strong>Constitué par Hybie FAITH</strong><br>Août 2026</p>
     </div>
   </section>
 
@@ -699,13 +684,12 @@
       <div class="toc-item"><span class="toc-num">09</span><span class="toc-label">Plan de communication</span></div>
       <div class="toc-item"><span class="toc-num">10</span><span class="toc-label">Partenariats & contreparties</span></div>
       <div class="toc-item"><span class="toc-num">11</span><span class="toc-label">Évènements organisés</span></div>
-      <div class="toc-item"><span class="toc-num">12</span><span class="toc-label">Concept signature « Les Escales »</span></div>
+      <div class="toc-item"><span class="toc-num">12</span><span class="toc-label">Concept signature « Les Nuits du 7 »</span></div>
       <div class="toc-item"><span class="toc-num">13</span><span class="toc-label">Recrutement & équipe</span></div>
       <div class="toc-item"><span class="toc-num">14</span><span class="toc-label">Comptabilité &amp; cabinet partenaire</span></div>
       <div class="toc-item"><span class="toc-num">15</span><span class="toc-label">Objectifs court / moyen / long terme</span></div>
       <div class="toc-item"><span class="toc-num">16</span><span class="toc-label">Futurs projets de développement</span></div>
       <div class="toc-item"><span class="toc-num">17</span><span class="toc-label">Conclusion & contact</span></div>
-      <div class="toc-item"><span class="toc-num">18</span><span class="toc-label">Proposition de mapping</span></div>
     </div></div>
   </section>
 
@@ -715,11 +699,11 @@
     <svg class="waves bl" viewBox="0 0 600 600"><g stroke="url(#waveGrad)"><ellipse cx="300" cy="300" rx="60" ry="180" transform="rotate(-35 300 300)"/><ellipse cx="300" cy="300" rx="100" ry="220" transform="rotate(-35 300 300)"/><ellipse cx="300" cy="300" rx="140" ry="260" transform="rotate(-35 300 300)"/></g></svg>
     <div class="vision-inner">
       <span class="vision-eyebrow">Notre vision</span>
-      <h2 class="vision-punchline">Faire du <span class="hl">Bahama West Mamas</span><br>une <span class="accent">destination iconique</span><em>— un lieu où les rythmes afro rencontrent l'élégance orientale.</em></h2>
-      <p class="vision-sub">Bien plus qu'un club — <strong>une expérience immersive</strong> mêlant musique, chicha, culture et raffinement. Faire du Bahama West Mamas une <strong>adresse incontournable</strong> de San Andreas, où chaque nuit devient un voyage.</p>
+      <h2 class="vision-punchline">Faire du <span class="hl">Club 77</span><br>une <span class="accent">destination iconique</span><em>— un lieu où les rythmes afro rencontrent l'élégance orientale.</em></h2>
+      <p class="vision-sub">Bien plus qu'un club — <strong>une expérience immersive</strong> mêlant musique, chicha, culture et raffinement. Faire du Club 77 une <strong>adresse incontournable</strong> de San Andreas, où chaque nuit devient un voyage.</p>
       <div class="vision-divider"><span></span><span></span><span></span></div>
-      <p class="vision-presente">Présenté à la direction du Bahama West Mamas</p>
-      <p class="vision-signature">Hybie FAITH · <strong>Candidate gérante</strong> du Bahama West Mamas</p>
+      <p class="vision-presente">Présenté à la direction du Club 77</p>
+      <p class="vision-signature">Hybie FAITH · <strong>Candidate gérante</strong> du Club 77</p>
     </div>
   </section>
 
@@ -732,28 +716,28 @@
       <span class="slide-num"><strong>01</strong> / VISION</span>
     </div>
     <div class="slide-content">
-      <p class="triptyque-intro">Trois mots qui définissent l'essence du <strong>nouveau Bahama West Mamas</strong> — une vision portée par la <span class="hl">culture</span>, l'<span class="hl">élégance</span> et l'<span class="hl">expérience</span>.</p>
+      <p class="triptyque-intro">Trois mots qui définissent l'essence du <strong>nouveau Club 77</strong> — une vision portée par la <span class="hl">culture</span>, l'<span class="hl">élégance</span> et l'<span class="hl">expérience</span>.</p>
       <div class="triptyque">
         <div class="tri-card">
           
           <span class="tri-num">01 · L'âme</span>
           <span class="tri-label">Authenticité</span>
           <p class="tri-text">Créer un lieu avec une <strong>véritable identité</strong>, inspiré des cultures afro et orientales. Une ambiance chaleureuse où les sonorités, les saveurs et les traditions se rencontrent pour offrir une expérience unique.</p>
-          <span class="tri-tag">— L'essence du Bahama West Mamas</span>
+          <span class="tri-tag">— L'essence du Club 77</span>
         </div>
         <div class="tri-card">
           
           <span class="tri-num">02 · Le voyage</span>
           <span class="tri-label">Immersion</span>
-          <p class="tri-text">Transformer chaque soirée en une <strong>évasion</strong>. Entre musique afro, influences orientales, espace chicha et atmosphère lounge, le Bahama West Mamas devient bien plus qu'un simple club.</p>
+          <p class="tri-text">Transformer chaque soirée en une <strong>évasion</strong>. Entre musique afro, influences orientales, espace chicha et atmosphère lounge, le Club 77 devient bien plus qu'un simple club.</p>
           <span class="tri-tag">— Une expérience hors du temps</span>
         </div>
         <div class="tri-card">
           
           <span class="tri-num">03 · La signature</span>
           <span class="tri-label">Prestige</span>
-          <p class="tri-text">Faire du Bahama West Mamas une <strong>adresse incontournable</strong> de San Andreas. Un lieu élégant, exclusif et mémorable où chaque détail reflète le raffinement et l'excellence.</p>
-          <span class="tri-tag">— L'empreinte du Bahama West Mamas</span>
+          <p class="tri-text">Faire du Club 77 une <strong>adresse incontournable</strong> de San Andreas. Un lieu élégant, exclusif et mémorable où chaque détail reflète le raffinement et l'excellence.</p>
+          <span class="tri-tag">— L'empreinte du Club 77</span>
         </div>
       </div>
       <p class="triptyque-footer">Trois piliers qui définissent une nouvelle vision : une <strong>identité forte</strong>, une <strong>expérience unique</strong> et une adresse qui marque les esprits.</p>
@@ -780,7 +764,7 @@
           <p>Mon parcours professionnel m'a d'abord menée au sein du <strong>gouvernement</strong>, où j'ai travaillé pendant <strong>5 mois</strong>. Cette expérience m'a permis de développer un solide <span class="hl">sens des responsabilités</span>, une véritable rigueur de <span class="hl">gestion</span> ainsi qu'un goût prononcé pour le <span class="hl">travail en équipe</span> et la coordination humaine.</p>
           <p>À la fin de mon mandat, j'ai choisi de poursuivre mon évolution dans le <strong>secteur privé</strong>, en rejoignant le <strong>Casino</strong> ainsi que le cabinet comptable <strong>BLA Corporate</strong>, où j'ai pu renforcer mes compétences dans la gestion, l'organisation et le contact avec les professionnels. Plus récemment, j'ai intégré le <strong>Life</strong>, une nouvelle étape qui m'a permis de découvrir un environnement différent, dynamique et humain.</p>
           <p>Très <strong>sociable</strong>, j'adore le contact, créer du lien et mettre les gens à l'aise. La vie nocturne de la ville m'a toujours fascinée — c'est un univers <span class="hl">vibrant, exigeant et profondément humain</span>, où une bonne ambiance se construit avec rigueur et passion.</p>
-          <p>Reprendre le <strong>Bahama West Mamas</strong>, c'est mon projet de cœur. Je veux mettre toute mon énergie, mon sérieux et ma vision pour en faire <span class="hl">un lieu culte</span>, fédérateur, où l'on vient pour vivre des soirées dont on se souvient longtemps.</p>
+          <p>Reprendre le <strong>Club 77</strong>, c'est mon projet de cœur. Je veux mettre toute mon énergie, mon sérieux et ma vision pour en faire <span class="hl">un lieu culte</span>, fédérateur, où l'on vient pour vivre des soirées dont on se souvient longtemps.</p>
         </div>
       </div>
       <div class="bio-aside">
@@ -804,14 +788,14 @@
     </div>
     <div class="slide-content"><div class="pourquoi">
       <div class="pourquoi-intro">
-        <p>Le <strong>Bahama West Mamas</strong> mérite une gérante qui ne se contente pas de gérer un établissement, mais qui lui <span class="hl">donne une âme</span>. Mon histoire, mes origines et mon parcours m'ont appris la valeur du partage, de la culture et du rassemblement.</p>
-        <p>Je veux transformer le Bahama West Mamas en une <strong>destination afro-moderne</strong>, où la musique, l'ambiance et l'élégance créent une expérience unique. Un lieu qui représente la <span class="hl">diversité de San Andreas</span> et où chacun rêve d'avoir sa place.</p>
-        <p class="pourquoi-quote">« Reprendre le Bahama West Mamas, ce n'est pas hériter d'un nom — c'est s'engager à en faire une légende. »</p>
+        <p>Le <strong>Club 77</strong> mérite une gérante qui ne se contente pas de gérer un établissement, mais qui lui <span class="hl">donne une âme</span>. Mon histoire, mes origines et mon parcours m'ont appris la valeur du partage, de la culture et du rassemblement.</p>
+        <p>Je veux transformer le Club 77 en une <strong>destination afro-moderne</strong>, où la musique, l'ambiance et l'élégance créent une expérience unique. Un lieu qui représente la <span class="hl">diversité de San Andreas</span> et où chacun rêve d'avoir sa place.</p>
+        <p class="pourquoi-quote">« Reprendre le Club 77, ce n'est pas hériter d'un nom — c'est s'engager à en faire une légende. »</p>
       </div>
       <div class="pourquoi-cards">
-        <div class="pourquoi-card"><h4>Sérieux & engagement</h4><span class="pourquoi-card-sub">Un parcours construit sur la responsabilité</span><p>Mes expériences au <strong>gouvernement</strong>, au <strong>Casino</strong>, chez <strong>BLA Corporate</strong> puis au <strong>Life</strong> m'ont appris la rigueur, l'organisation et la gestion d'un projet humain. Aujourd'hui, je veux mettre ces compétences au service d'un Bahama West Mamas avec une identité forte et une direction claire.</p></div>
-        <div class="pourquoi-card"><h4>Énergie & disponibilité</h4><span class="pourquoi-card-sub">Une passion portée par mes racines</span><p>Originaire du <strong>Congo</strong>, j'ai grandi avec une culture où la musique, le partage et la convivialité occupent une place essentielle. Je souhaite retranscrire cette énergie au Bahama West Mamas à travers une ambiance <strong>afro chaleureuse</strong>, festive et mémorable.</p></div>
-        <div class="pourquoi-card"><h4>Sens du contact</h4><span class="pourquoi-card-sub">Créer un lieu qui rassemble</span><p>Ma culture m'a transmis l'importance de l'accueil, du respect et du <strong>lien humain</strong>. Mon objectif est de faire du Bahama West Mamas un espace où chaque personne se sent intégrée, entre rythmes afro, influences culturelles et moments de partage.</p></div>
+        <div class="pourquoi-card"><h4>Sérieux & engagement</h4><span class="pourquoi-card-sub">Un parcours construit sur la responsabilité</span><p>Mes expériences au <strong>gouvernement</strong>, au <strong>Casino</strong>, chez <strong>BLA Corporate</strong> puis au <strong>Life</strong> m'ont appris la rigueur, l'organisation et la gestion d'un projet humain. Aujourd'hui, je veux mettre ces compétences au service d'un Club 77 avec une identité forte et une direction claire.</p></div>
+        <div class="pourquoi-card"><h4>Énergie & disponibilité</h4><span class="pourquoi-card-sub">Une passion portée par mes racines</span><p>Originaire du <strong>Congo</strong>, j'ai grandi avec une culture où la musique, le partage et la convivialité occupent une place essentielle. Je souhaite retranscrire cette énergie au Club 77 à travers une ambiance <strong>afro chaleureuse</strong>, festive et mémorable.</p></div>
+        <div class="pourquoi-card"><h4>Sens du contact</h4><span class="pourquoi-card-sub">Créer un lieu qui rassemble</span><p>Ma culture m'a transmis l'importance de l'accueil, du respect et du <strong>lien humain</strong>. Mon objectif est de faire du Club 77 un espace où chaque personne se sent intégrée, entre rythmes afro, influences culturelles et moments de partage.</p></div>
         <div class="pourquoi-card"><h4>Vision long terme</h4><span class="pourquoi-card-sub">Une identité unique à San Andreas</span><p>Mon ambition est de créer un établissement avec une <strong>véritable signature</strong> : un mélange entre culture afro-orientale et art de la chicha. Un lieu chaleureux où les rythmes afro, les influences orientales et l'univers lounge de la chicha se rencontrent.</p></div>
       </div>
     </div></div>
@@ -836,9 +820,9 @@
           <p>Après avoir quitté Chicago, je suis arrivée à Los Santos avec un groupe d'amis. J'ai dû me débrouiller comme j'ai pu, mais je suis toujours restée <strong>forte</strong> et je n'ai jamais choisi la facilité. J'ai travaillé dur et, au fil du temps, je suis devenue <span class="hl">indépendante</span>. Cette expérience m'a également permis de rencontrer des personnes incroyables.</p>
           <p>J'ai ensuite trouvé un emploi au sein du <strong>Life Invader</strong> où, grâce à mes compétences et à ma vision du <span class="hl">graphisme</span>, j'ai réussi à évoluer jusqu'au poste d'<strong>assistante de pôle</strong>. Aujourd'hui, je prends énormément de plaisir à accompagner les autres graphistes, à les aider à trouver leur propre identité et à progresser dans leur travail.</p>
           <p>Désormais éloignée de mes anciens problèmes, je profite pleinement de ma vie et je m'ouvre petit à petit au monde, en faisant de nouvelles rencontres et en développant davantage ma vie sociale.</p>
-          <p>C'est justement au Life Invader que j'ai rencontré la fabuleuse <strong>Hybie</strong>, qui m'a proposé de reprendre le Bahama West Mamas avec elle. Pour moi, c'était un véritable honneur. Son projet m'a immédiatement séduite : proposer un <span class="hl">univers musical varié</span> avec du shatta, du bouyon, de l'oriental, du dancehall, mais aussi bien d'autres sonorités.</p>
+          <p>C'est justement au Life Invader que j'ai rencontré la fabuleuse <strong>Hybie</strong>, qui m'a proposé de reprendre le Club 77 avec elle. Pour moi, c'était un véritable honneur. Son projet m'a immédiatement séduite : proposer un <span class="hl">univers musical varié</span> avec du shatta, du bouyon, de l'oriental, du dancehall, mais aussi bien d'autres sonorités.</p>
           <p>Passionnée par la musique et admirative du monde de la nuit, je vois cette opportunité comme une véritable chance de mettre ma <strong>créativité</strong> à profit. Transformer une simple boîte de nuit en un véritable <span class="hl">bar à thèmes</span>, avec une identité forte et une ambiance différente selon les soirées, est un projet dans lequel je peux pleinement m'exprimer.</p>
-          <p>Mon objectif est de faire du Bahama West Mamas un <strong>lieu unique</strong>, où chacun peut découvrir de nouvelles cultures musicales, profiter d'une expérience différente et surtout passer un bon moment.</p>
+          <p>Mon objectif est de faire du Club 77 un <strong>lieu unique</strong>, où chacun peut découvrir de nouvelles cultures musicales, profiter d'une expérience différente et surtout passer un bon moment.</p>
         </div>
       </div>
       <div class="bio-aside">
@@ -918,7 +902,7 @@
       <span class="slide-num"><strong>06</strong> / ÉQUIPE</span>
     </div>
     <div class="slide-content"><div class="postes-grid">
-      <div class="poste-full"><h4>Patron</h4><ul><li>Direction générale de l'établissement</li><li>Vision stratégique long terme</li><li>Gestion globale du personnel et de la masse salariale</li><li>Pilotage des partenariats et événements signature</li><li>Représentation officielle du Bahama West Mamas</li></ul></div>
+      <div class="poste-full"><h4>Patron</h4><ul><li>Direction générale de l'établissement</li><li>Vision stratégique long terme</li><li>Gestion globale du personnel et de la masse salariale</li><li>Pilotage des partenariats et événements signature</li><li>Représentation officielle du Club 77</li></ul></div>
       <div class="poste-full"><h4>Co-Patron</h4><ul><li>Bras droit opérationnel de la patronne</li><li>Co-pilotage des décisions stratégiques</li><li>Communication et développement de l'image</li><li>Gestion en l'absence de la patronne</li><li>Suivi des projets transversaux</li></ul></div>
       <div class="poste-full"><h4>RH</h4><ul><li>Recrutement et sélection du personnel</li><li>Gestion des contrats et plannings</li><li>Suivi des présences et absences</li><li>Veille au climat et à la cohésion d'équipe</li><li>Médiation interne en cas de conflit</li></ul></div>
       <div class="poste-full"><h4>Responsable Bar</h4><ul><li>Gestion du bar et des stocks (alcools, softs, consommables)</li><li>Organisation du travail de la barmaid</li><li>Contrôle qualité du service</li><li>Création de la carte cocktails signature</li><li>Suivi des approvisionnements partenaires</li></ul></div>
@@ -938,19 +922,19 @@
     </div>
     <div class="slide-content"><div class="locale">
       <div class="locale-photos">
-        <div class="locale-photo" data-label="Devanture · enseigne néon"><img src="_ressources/visuels/facade-bahama.png" alt="Façade du Bahama West Mamas" onerror="this.remove()"></div>
-        <div class="locale-photo" data-label="Intérieur · salle et ambiance"><img src="_ressources/visuels/interieur-bahama.png" alt="Intérieur du Bahama West Mamas" onerror="this.remove()"></div>
+        <div class="locale-photo" data-label="Devanture · entrée principale"><img src="_ressources/visuels/club77 photo.png" alt="Façade extérieure du Club 77"></div>
+        <div class="locale-photo" data-label="Piste de danse · ambiance néon"><img src="_ressources/visuels/phto dans le club 77.png" alt="Intérieur du Club 77"></div>
       </div>
       <div class="locale-info">
-        <p>Le <strong>Bahama West Mamas</strong> occupe une façade emblématique de Los Santos, en bordure d'un grand boulevard planté de palmiers, dans un quartier déjà rodé à la vie nocturne.</p>
-        <p>Cette localisation <span class="hl">stratégique</span> en fait un point de passage naturel pour la clientèle noctambule : une enseigne néon visible de loin, un accès direct depuis la rue et du stationnement à proximité immédiate.</p>
+        <p>Le <strong>Club 77</strong> est idéalement implanté au cœur de la ville, dans une zone à forte affluence nocturne et à proximité directe des principaux axes de transit et des quartiers les plus animés de Los Santos.</p>
+        <p>Cette localisation <span class="hl">stratégique</span> en fait un point de passage naturel pour la clientèle noctambule : visibilité maximale, accessibilité optimale, environnement déjà rodé à la vie nocturne.</p>
         <div class="locale-map empty">
           <div class="map-pin"><svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-          <div class="map-text"><strong>Plan à insérer</strong>Emplacement du Bahama West Mamas<br>sur la carte de l'État de San Andreas</div>
+          <div class="map-text"><strong>Plan à insérer</strong>Emplacement du Club 77<br>sur la carte de l'État de San Andreas</div>
         </div>
         <div class="locale-points">
           <div class="locale-point"><h5>Type d'établissement</h5><p>Club & lounge chicha</p></div>
-          <div class="locale-point"><h5>Accès</h5><p>Façade sur boulevard + stationnement</p></div>
+          <div class="locale-point"><h5>Accès</h5><p>Façade + parking proche</p></div>
         </div>
       </div>
     </div></div>
@@ -964,7 +948,7 @@
       <span class="slide-num"><strong>08</strong> / PROJET</span>
     </div>
     <div class="slide-content">
-      <p class="ambitions-intro">Notre ambition : faire du Bahama West Mamas un <strong>haut lieu de la nightlife</strong> de la ville — une <span class="hl">institution festive</span> où l'on vient pour vivre des soirées dont on se souvient, dans un cadre <strong>sécurisé et qualitatif</strong>.<br><br>Le <strong>Bahama West Mamas</strong> représente un <span class="hl">véritable projet sérieux et durable</span>. Nous voulons construire une équipe solide, <strong>hisser l'établissement au rang des meilleures adresses de la nuit</strong> et en faire <span class="hl">la référence incontournable</span> de la vie nocturne.</p>
+      <p class="ambitions-intro">Notre ambition : faire du Club 77 un <strong>haut lieu de la nightlife</strong> de la ville — une <span class="hl">institution festive</span> où l'on vient pour vivre des soirées dont on se souvient, dans un cadre <strong>sécurisé et qualitatif</strong>.<br><br>Le <strong>Club 77</strong> représente un <span class="hl">véritable projet sérieux et durable</span>. Nous voulons construire une équipe solide, <strong>hisser l'établissement au rang des meilleures adresses de la nuit</strong> et en faire <span class="hl">la référence incontournable</span> de la vie nocturne.</p>
       <div class="pillars">
         <div class="pillar"><span class="pillar-num">01</span><span class="pillar-title">Organiser des évènements</span><span class="pillar-desc">Une programmation rythmée et variée pour faire vivre le club chaque semaine.</span></div>
         <div class="pillar"><span class="pillar-num">02</span><span class="pillar-title">Construire une équipe sérieuse</span><span class="pillar-desc">Recruter des profils investis, formés et fiables pour garantir la qualité du service.</span></div>
@@ -1017,7 +1001,7 @@
             <li><span><strong>Mise en avant produits</strong> — dégustations, distributions, démos.</span></li>
             <li><span><strong>Co-branding réseaux</strong> — mentions sur Birdy & Instapick.</span></li>
           </ul>
-          <p class="contre-footer">Ces collaborations créent une <strong>dynamique positive</strong> entre les entreprises locales et le Bahama West Mamas.</p>
+          <p class="contre-footer">Ces collaborations créent une <strong>dynamique positive</strong> entre les entreprises locales et le Club 77.</p>
         </div>
       </div>
       <div class="part-method">
@@ -1054,16 +1038,16 @@
     <svg class="waves bl" viewBox="0 0 600 600"><g stroke="url(#waveGrad)"><ellipse cx="300" cy="300" rx="60" ry="180" transform="rotate(-35 300 300)"/><ellipse cx="300" cy="300" rx="100" ry="220" transform="rotate(-35 300 300)"/><ellipse cx="300" cy="300" rx="140" ry="260" transform="rotate(-35 300 300)"/></g></svg>
     <div class="signature-inner">
       <span class="signature-eyebrow">Concept signature</span>
-      <h2 class="signature-title">Les Escales</h2>
-      <p class="signature-sub">Deux fois par mois, le club <strong>lève l'ancre</strong> pour une nouvelle destination. Une culture, une direction musicale, une carte chicha et un décor recomposés le temps d'une nuit — la signature qui fera l'identité du Bahama West Mamas.</p>
+      <h2 class="signature-title">Les Nuits du <span class="seven">7</span></h2>
+      <p class="signature-sub">Toutes les dates se terminant par un <strong>7</strong> deviennent des rendez-vous d'exception : <strong>le 7, le 17, le 27</strong> de chaque mois — trois soirées signature qui feront l'identité du Club 77.</p>
       <div class="signature-advantages">
-        <div class="signature-adv"><span class="adv-title">Une destination</span><span class="adv-desc">Dakar, Marrakech, Kingston, Abidjan, Beyrouth : une escale, une culture</span></div>
-        <div class="signature-adv"><span class="adv-title">Direction musicale</span><span class="adv-desc">Shatta, bouyon, afrobeats, dancehall et sonorités orientales</span></div>
-        <div class="signature-adv"><span class="adv-title">Carte chicha</span><span class="adv-desc">Un parfum et un cocktail créés pour chaque escale</span></div>
-        <div class="signature-adv"><span class="adv-title">Décor & lumière</span><span class="adv-desc">La salle se rhabille aux couleurs de la destination</span></div>
-        <div class="signature-adv"><span class="adv-title">Dress code</span><span class="adv-desc">Annoncé à l'avance, pour une salle qui joue le jeu</span></div>
+        <div class="signature-adv"><span class="adv-title">Entrée gratuite</span><span class="adv-desc">Pour certaines catégories de clients sélectionnées</span></div>
+        <div class="signature-adv"><span class="adv-title">Tirages au sort</span><span class="adv-desc">Lots premium et cadeaux importants à la clé</span></div>
+        <div class="signature-adv"><span class="adv-title">Dress code</span><span class="adv-desc">Ambiance prestigieuse, tenue élégante exigée</span></div>
+        <div class="signature-adv"><span class="adv-title">Artistes invités</span><span class="adv-desc">DJ et performers exclusifs à chaque édition</span></div>
+        <div class="signature-adv"><span class="adv-title">Animations</span><span class="adv-desc">Concours et événements spéciaux pendant la soirée</span></div>
       </div>
-      <p class="signature-footer">— Une nuit, une escale. On ne revient jamais deux fois au même endroit.</p>
+      <p class="signature-footer">— Le 7, le 17, le 27. Chaque mois, le Club 77 vit ses Nuits du 7.</p>
     </div>
   </section>
 
@@ -1086,7 +1070,7 @@
           <div class="poste"><span class="poste-name">Resp. Évènementiel &amp; DJ</span><span class="poste-count">1</span></div>
         </div>
         <div class="valeurs">
-          <h4>Esprit Bahama West Mamas</h4>
+          <h4>Esprit Club 77</h4>
           <div class="valeurs-list">
             <span class="valeur-tag">Bienveillance</span><span class="valeur-tag">Professionnalisme</span><span class="valeur-tag">Esprit d'équipe</span><span class="valeur-tag">Sens du service</span><span class="valeur-tag">Réactivité</span><span class="valeur-tag">Respect du client</span>
           </div>
@@ -1136,7 +1120,7 @@
         <div class="obj-head"><span class="obj-tag">Court terme</span></div>
         <h3 class="obj-title">1er mois</h3>
         <ul class="obj-list">
-          <li>Rouvrir le Bahama West Mamas avec une soirée de lancement afro-orientale</li>
+          <li>Rouvrir le Club 77 avec une soirée de lancement afro-orientale</li>
           <li>Recruter une équipe sérieuse (bar, sécurité, accueil)</li>
           <li>Installer l'espace chicha et sa carte de parfums</li>
           <li>Lancer la première Escale et la carte cocktails signature</li>
@@ -1148,11 +1132,11 @@
         <div class="obj-head"><span class="obj-tag">Moyen terme</span></div>
         <h3 class="obj-title">3 mois</h3>
         <ul class="obj-list">
-          <li>Fidéliser une clientèle régulière autour des Escales</li>
+          <li>Fidéliser une clientèle régulière autour des Nuits du 7</li>
           <li>Développer des partenariats avec des commerces</li>
           <li>Installer un rendez-vous chicha & lounge en début de soirée</li>
           <li>Enrichir le décor et l'atmosphère afro-orientale</li>
-          <li>Renforcer la réputation du Bahama West Mamas dans la ville</li>
+          <li>Renforcer la réputation du Club 77 dans la ville</li>
         </ul>
         <p class="obj-note">Propositions à valider avec la gérante.</p>
       </div>
@@ -1163,7 +1147,7 @@
           <li>Établissement reconnu pour la qualité de ses soirées</li>
           <li>Lieu incontournable de la vie nocturne de l'État</li>
           <li>La référence afro-orientale et chicha de San Andreas</li>
-          <li>Concept « Les Escales » installé comme rendez-vous attendu</li>
+          <li>Concept « Les Nuits du 7 » installé comme rendez-vous attendu</li>
           <li>Évènements signature reconnus à l'échelle de San Andreas</li>
         </ul>
         <p class="obj-note">Propositions à valider avec la gérante.</p>
@@ -1179,7 +1163,7 @@
       <span class="slide-num"><strong>16</strong> / PROJET</span>
     </div>
     <div class="slide-content">
-      <p class="futur-intro">Au-delà de la réouverture, la <strong>vision long terme</strong> du Bahama West Mamas vise à enrichir l'écosystème nocturne de la ville par des projets structurants, ambitieux et fédérateurs.</p>
+      <p class="futur-intro">Au-delà de la réouverture, la <strong>vision long terme</strong> du Club 77 vise à enrichir l'écosystème nocturne de la ville par des projets structurants, ambitieux et fédérateurs.</p>
       <div class="projets">
         <div class="projet"><span class="projet-title">Salon chicha privatisable</span><span class="projet-desc">Espace lounge et chicha réservable pour anniversaires, lancements et soirées privées.</span></div>
         <div class="projet"><span class="projet-title">Scène live afro & orientale</span><span class="projet-desc">Artistes, chanteurs et percussionnistes de la ville programmés en exclusivité.</span></div>
@@ -1196,47 +1180,14 @@
     <svg class="waves tr" viewBox="0 0 600 600"><g stroke="url(#waveGrad)"><ellipse cx="300" cy="300" rx="60" ry="180" transform="rotate(35 300 300)"/><ellipse cx="300" cy="300" rx="100" ry="220" transform="rotate(35 300 300)"/><ellipse cx="300" cy="300" rx="140" ry="260" transform="rotate(35 300 300)"/></g></svg>
     <svg class="waves bl" viewBox="0 0 600 600"><g stroke="url(#waveGrad)"><ellipse cx="300" cy="300" rx="60" ry="180" transform="rotate(-35 300 300)"/><ellipse cx="300" cy="300" rx="100" ry="220" transform="rotate(-35 300 300)"/><ellipse cx="300" cy="300" rx="140" ry="260" transform="rotate(-35 300 300)"/></g></svg>
     <div class="concl-inner">
-      <div class="concl-logo"><img src="_ressources/visuels/logo-bahama-west-mamas.png" alt="Logo Bahama West Mamas"></div>
+      <div class="concl-logo"><img src="_ressources/visuels/logo-club77-neon-transparent.png" alt="Logo Club 77"></div>
       <h2 class="concl-title">Merci.</h2>
-      <p class="concl-sub">Reprendre le <strong>Bahama West Mamas</strong>, c'est s'engager à en faire un <strong>lieu culte</strong>, sécurisé et incontournable — une véritable institution de la nuit. Je suis prête à mettre toute mon énergie, mon sérieux et ma vision pour <strong>hisser le Bahama West Mamas au rang des meilleures adresses</strong> de l'État de San Andreas.</p>
+      <p class="concl-sub">Reprendre le <strong>Club 77</strong>, c'est s'engager à en faire un <strong>lieu culte</strong>, sécurisé et incontournable — une véritable institution de la nuit. Je suis prête à mettre toute mon énergie, mon sérieux et ma vision pour <strong>hisser le Club 77 au rang des meilleures adresses</strong> de l'État de San Andreas.</p>
       <div class="concl-contact">
         <div class="concl-contact-item"><div><div class="concl-contact-label">Téléphone</div><div class="concl-contact-value">160-9622</div></div></div>
         <div class="concl-contact-item"><div><div class="concl-contact-label">Email</div><div class="concl-contact-value">hybiefaith@gmail.com</div></div></div>
       </div>
-      <div class="concl-signature">— Hybie FAITH, candidate gérante du Bahama West Mamas</div>
-    </div>
-  </section>
-
-  <!-- 21 · PROPOSITION DE MAPPING -->
-  <section class="slide">
-    <svg class="waves br" viewBox="0 0 600 600"><g stroke="url(#waveGrad)"><ellipse cx="300" cy="300" rx="60" ry="180" transform="rotate(-35 300 300)"/><ellipse cx="300" cy="300" rx="100" ry="220" transform="rotate(-35 300 300)"/><ellipse cx="300" cy="300" rx="140" ry="260" transform="rotate(-35 300 300)"/></g></svg>
-    <div class="slide-header">
-      <div><span class="slide-eyebrow">Aménagement · 18</span><h2 class="slide-title">Proposition de <span class="accent">mapping</span></h2></div>
-      <span class="slide-num"><strong>18</strong> / LIEU</span>
-    </div>
-    <div class="slide-content">
-      <p class="mapping-intro">Trois aménagements intérieurs proposés pour le <strong>Bahama West Mamas</strong>. Chacun redessine la salle, le bar et l'espace lounge — <span class="hl">à départager avec la direction</span> avant d'engager les travaux.</p>
-      <div class="mapping-grid">
-        <a class="mapping-card" href="https://youtu.be/zKsu-Vigg-g" target="_blank" rel="noopener">
-          <span class="mapping-thumb"><span class="mapping-play"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg></span></span>
-          <span class="mapping-num">Proposition 01</span>
-          <span class="mapping-desc">Aménagement complet : salle, bar et espace lounge.</span>
-          <span class="mapping-link">Voir la présentation</span>
-        </a>
-        <a class="mapping-card" href="https://youtu.be/RJ0yv6cAkWc" target="_blank" rel="noopener">
-          <span class="mapping-thumb"><span class="mapping-play"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg></span></span>
-          <span class="mapping-num">Proposition 02</span>
-          <span class="mapping-desc">Aménagement complet : salle, bar et espace lounge.</span>
-          <span class="mapping-link">Voir la présentation</span>
-        </a>
-        <a class="mapping-card" href="https://youtu.be/0cRos3xqYWQ" target="_blank" rel="noopener">
-          <span class="mapping-thumb"><span class="mapping-play"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg></span></span>
-          <span class="mapping-num">Proposition 03</span>
-          <span class="mapping-desc">Aménagement complet : salle, bar et espace lounge.</span>
-          <span class="mapping-link">Voir la présentation</span>
-        </a>
-      </div>
-      <p class="mapping-note">Chaque vignette ouvre la présentation complète de l'aménagement dans un nouvel onglet.</p>
+      <div class="concl-signature">— Hybie FAITH, candidate gérante du Club 77</div>
     </div>
   </section>
 
@@ -1251,7 +1202,7 @@
 
 <nav class="nav-bar" aria-label="Navigation des slides">
   <button type="button" class="nav-btn prev" aria-label="Slide précédente">‹</button>
-  <span class="counter"><span class="current" id="cur">01</span> / <span class="total" id="tot">21</span></span>
+  <span class="counter"><span class="current" id="cur">01</span> / <span class="total" id="tot">20</span></span>
   <div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
   <button type="button" class="nav-btn next" aria-label="Slide suivante">›</button>
   <button type="button" class="nav-action" id="fs-btn">⛶ Plein écran</button>
